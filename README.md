@@ -34,34 +34,3 @@ weather-dashboard/
   .gitignore
   requirements.txt
 
-
-# Setup Instructions
-## Clone the repository
-
-Initially i could have cloned the repository but i wanted to recreate and do it all myself. Create all the files that are within the Project Structure. Then insert the required infomation in each file
-
-### Create a Virtual Environment
-
-Before you install it's important you create a virtual environment for python. This wont install as the package is being handled externally. This could simply be Apt. So make sure to isolate the environment and install it within there. To do this:
-
-To create a virtual environment python3 -m venv (your virtual environment name)
-
-Then you have to activate the virtual environment source envname/bin/activate 
-
-### Install dependencies
-
-pip install -r requirements.txt
-
-Configure environment variables (.env)
-
-CopyOPENWEATHER_API_KEY=your_api_key
-AWS_BUCKET_NAME=your_bucket_name
-Configure AWS credentials
-
-Use aws configure to connect to the CLI
-
-### Run the application:
-
- python src/weather_dashboard.py
-
-image
