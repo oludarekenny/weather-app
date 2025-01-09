@@ -1,13 +1,11 @@
-# 30 Days DevOps Challenge - Weather Dashboard
+# 30 Days DevOps Challenge - Weather Display Application
 ## Day 1: Building a weather data collection system using AWS S3 and OpenWeather API
 
-This project is a Weather Data Collection System designed to fetch, store, and manage real-time weather data, showcasing core DevOps principles and Python development skills.
+This project is a Weather Data Collection System designed to fetch, store, and manage real-time weather data.
 
 ## Features
 -Real-Time Weather Data Collection: Fetches up-to-date weather information for multiple cities worldwide.
-
 -Detailed Weather Insights: Displays temperature (°F), humidity levels, and current weather conditions.
-
 -Cloud Storage Integration: Automatically saves weather data to AWS S3 for secure and scalable storage.
 
 
